@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../font/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../font/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Gilroy-Bold.woff2') format('woff2'),
+        url('../font/Gilroy-Bold.woff') format('woff'),
+        url('../font/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;}
+    @font-face {
+        font-family: 'Gilroy-Medium';
+        src: url('../font/Gilroy-Medium.eot');
+        src: local('Gilroy Medium'), local('Gilroy-Medium'),
+            url('../font/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+            url('../font/Gilroy-Medium.woff2') format('woff2'),
+            url('../font/Gilroy-Medium.woff') format('woff'),
+            url('../font/Gilroy-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    
+body{
+    
+    font-family: Gilroy-Bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.wraper{
+    margin:auto;
+    width:940px;
+}
+.header{
+    height:87px;
+    border-bottom:1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    display:flex;
+    margin:auto;
+}
+.menu__box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin: auto ;
+    padding: 0px;
+    margin: auto;
+        }
+.menu__box:first-child{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+
+}
+#menu__toggle{
+    display: none;
+}
+.hamburger-menu{
+    width: 100%;
+    margin: auto;}
+
+.active1{font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+
+}
+a{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+
+li{
+    display: block;
+    list-style-type:none;
+}
+
+
+h1{
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;}
+h2{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+    text-align: center;
+    }
+    .billboard_foto {
+    background-image: url('../img/BSPP2266.png');
+    background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100% auto;
+     }    
+.billboard_collum-3{
+    
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex: 0 1 33.333%;
+    margin: 30px auto;
+
+}
+.billboard_text{
+    display:flex;
+        align-items:flex-end;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+
+}
+.billboard_text_povorot{
+    transform: rotate(-90deg);
+    padding-right: 0px ;
+    margin-right: -65px;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+
+}
+.text_bolt{
+font-family: Gilroy-Bold;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+.billboard_image{
+    height: 387px;
+    width: 100%;
+    margin-bottom: 104px;
+   
+    
+}
+.About{
+   margin:95px auto;
+}
+.about_block{
+    margin:107px auto;
+    width: 100%;
+    
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background: #F6F6F6 ;
+}
+.abaut_text{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.Skills_collum-4{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex: 0 1 24%;
+    margin: 87px auto;
+}
+.programm_icon{
+    
+    width: 80px;
+    text-align:center;
+}
+.programm_name{
+    margin: 24px auto 40px auto;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+.Portfolio_wraper{
+    padding-top: 107px;
+    padding-bottom: 57px;
+    background: #F6F6F6;
+}
+.Portfolio_icon{
+    padding-top: 47px;
+}
+.Portfolio_sait{
+    margin: 45px auto;
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+}
+.Portfolio_sait a{
+    margin: 45px auto;
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+}
+
+.Portfolio_user a{
+    font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+}
+.Contacts{
+    display: flex;
+    margin: 107px auto;
+    justify-content: center;
+    flex-direction: column;
+      align-items: center;
+}
+
+.contacts_colum-4{
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+    flex: 0 1 24%;
+    margin: 87px auto;
+}
+.Portfolio_sait{
+    
+font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+list-style-type:none;
+}
+.bootam{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-family: Gilroy-Bold;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+border: 1px solid #000000;
+background-color: #000000;
+border-radius:20px;
+height: 42px;
+width: 180px;
+margin: auto;
+
+}
+.Portfolio_sait2{
+font-family: Gilroy-Medium;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+}
+/*zvezni reitig*/
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: black;
+}
+/*breakpoint*/
+
+@media(max-width: 767px){
+    
+    
+    
+.wraper{
+    margin:auto;
+    width:100%;
+}
+img {
+    width:100%;
+    object-fit:cover;
+   }
+/*burger-menu*/
+ #menu__toggle {
+    opacity: 0;
+  }
+  .Skills_collum-4 {
+    width: 100%;
+    display:flex;
+flex-direction:column;
+align-items: center;
+margin-top: 80px;
+margin-bottom: 0px;
+   }
+   .programm{
+    margin-bottom: 80px;
+   }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  
+    width: 26px;
+    height: 26px;
+  
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    background-color: #616161;
+  
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+      width: 375px;
+    width: 200%;
+    background-color: #FFFFFF;
+      margin: 0;
+    padding: 66px ;
+      list-style: none;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+      transition-duration: .25s;
+      position: relative;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    font-size: 34px;
+    line-height: 42px;
+    
+    color: #828282;
+  
+    font-family: Gilroy-Bold;
+    
+    font-weight: 600;
+  
+    text-decoration: none;
+  
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+    
+
+  }
+  .active1{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #090909;
+    text-decoration: none;
+   }
+   .Portfolio_wraper {
+    
+    background: #F6F6F6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+   }
+   .Portfolio_icon {
+    margin: 30px;
+    padding-top: 0px;
+    }
+    .Contacts {
+        display: flex;
+        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+        margin-bottom: 90px;
+    }
+    .contacts_colum-4{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        flex: 0 1 24%;
+        margin: 87px auto;
+    }
+    .billboard_collum-3 {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+               margin: 25px auto;}
+   .billboard_text_povorot{
+       position: fixed;
+
+   } 
+   .billboard_text_povorot{
+      
+       z-index: 50;
+
+       
+   } 
+   .billboard{
+       z-index: 7;
+   }
+}
